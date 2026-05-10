@@ -1,0 +1,38 @@
+# Virtual environments
+.venv
+
+# Python cache and uploads
+backend_TB/uploads
+backend_TB/__pycache__
+
+# Logs (backend and frontend)
+# Add any logs you don't need to track
+Front/logs
+Front/*.log
+Front/npm-debug.log*
+Front/yarn-debug.log*
+Front/yarn-error.log*
+Front/pnpm-debug.log*
+Front/lerna-debug.log*
+
+# Frontend build files and node modules
+Front/node_modules
+Front/dist
+Front/dist-ssr
+Front/*.local
+
+# Editor directories and files
+Front/.vscode/*
+!Front/.vscode/extensions.json   # Keep this specific file
+Front/.idea
+Front/.DS_Store
+
+# Windows-specific files
+Front/*.suo
+Front/*.ntvs*
+Front/*.njsproj
+Front/*.sln
+
+# Miscellaneous editor files (e.g., temporary files)
+Front/*.sw?
+
